@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool:  pool123
+pool:  pool769
 
 steps:
 - task: NuGetToolInstaller@1
