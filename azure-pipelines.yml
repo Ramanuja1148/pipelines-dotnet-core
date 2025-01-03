@@ -8,11 +8,6 @@ trigger:
 
 pool:  pool123
 
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
-
 steps:
 - task: NuGetToolInstaller@1
 
